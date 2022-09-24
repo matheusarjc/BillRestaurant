@@ -1,3 +1,3 @@
 # Vite system 
-  -> npm install (node_modules)
-  -> npm run dev
+  - npm install (node_modules)
+  - npm run dev
