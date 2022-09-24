@@ -1,0 +1,146 @@
+.mainSheet{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: center;
+
+    gap: 2rem;
+}
+
+.generalContainer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    width: 30rem;
+    height: auto;
+
+    margin: 0 auto;
+
+    border-radius: 0.4rem;
+    background: var(--bgColor);
+
+    box-shadow: 0px 10px 10px 0 rgba(0, 0, 0, 0.500);
+}
+
+.generalContainer .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 1rem;
+
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.generalContainer .formContainer {
+    margin: 0 1rem;
+
+    margin-top: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    
+    gap: 2rem;
+}
+
+
+
+.generalContainer .formContainer .restInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 14rem;
+}
+
+.generalContainer .formContainer .restInfo .clientsBox{
+    display: flex;
+    align-items: center;
+
+    gap: 0.5rem;
+}
+
+.generalContainer .formContainer .restInfo .table{
+    display: flex;
+    gap: 0.5rem;
+}
+
+select{
+    background: var(--gray-200);
+    padding: 0.3rem;
+
+    border: none;
+    border-radius: 0.5rem;
+
+}
+
+select:focus {
+    border: none;
+}
+
+.inputClient{
+    padding: 0.5rem;
+    width: 45%;
+
+    border: none;
+    background-color: var(--gray-200);
+
+    border-radius: 0.5rem;
+}
+
+input:focus{
+    border: none;
+}
+
+.generalContainer .formContainer .pqtd{
+    display: flex;
+    flex-direction: column;
+}
+
+.generalContainer .formContainer .pqtd .crossPQ{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    gap: 5rem;
+}
+
+.generalContainer .formContainer .pqtd .crossPQ .quantBox{
+    display: flex;
+    align-items: center;
+
+    gap: 0.5rem;
+    
+}
+
+.generalContainer .formContainer .pqtd .crossPQ .pdiv{
+    display: flex;
+    align-items: center;
+
+    gap: 0.5rem;
+}
+
+.generalContainer .formContainer .pqtd .inputClient{
+    width:35%;
+}
+
+.generalContainer .formContainer .pqtd .inputADD{
+    display: flex;
+    margin: 2rem auto;
+
+    padding: 1rem;
+
+    cursor:pointer;
+
+    border-radius: 1.4rem;
+    border: none;
+
+    background: var(--details);
+    color: var(--gray-100) ;
+}
+
+.generalContainer .formContainer .pqtd .inputADD:hover{
+    box-shadow: 0px 10px 10px 0 rgba(0, 0, 0, 0.500);
+    transition: 0.4s ease-in-out;
+}
