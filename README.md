@@ -1,3 +1,1 @@
-# Vite system 
-  - npm install (node_modules)
-  - npm run dev
+# OVERRATED < in process to build it better soon as possible >
